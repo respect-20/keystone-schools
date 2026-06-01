@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-gray-400 text-xs">
                 <HiLocationMarker className="text-sm flex-shrink-0" />
-                <span>123 Education Blvd, Harare, Zimbabwe</span>
+                <span>Shop #2 Bvirindi Business Center, Mutare</span>
               </li>
             </ul>
           </div>

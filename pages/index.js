@@ -34,9 +34,9 @@ export default function Home() {
         <Programs />
         <Features />
         <Testimonials />
-        <Gallery />
-        <News />
-        <EventsCalendar />
+        {/* <Gallery /> */}
+        {/* <News /> */}
+        {/* <EventsCalendar /> */}
         <FAQ />
         <Newsletter />
         <RegistrationCTA onRegisterClick={() => setIsRegistrationOpen(true)} />

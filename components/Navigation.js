@@ -35,7 +35,7 @@ export default function Navigation({ onRegisterClick }) {
     { href: '#programs', label: 'Programs' },
     { href: '#features', label: 'Features' },
     { href: '#testimonials', label: 'Testimonials' },
-    { href: '/faculty', label: 'Faculty' },
+    // { href: '/faculty', label: 'Faculty' },
     { href: '#contact', label: 'Contact' },
   ];
 
