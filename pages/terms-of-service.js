@@ -162,7 +162,7 @@ export default function TermsOfService() {
             <p>If you have any questions about these Terms of Service, please reach out to us:</p>
             <div className="mt-3 space-y-1">
               <p><strong>Keystone Schools</strong></p>
-              <p>123 Education Boulevard, Harare, Zimbabwe</p>
+              <p>Shop #2 Bvirindi Business Center, Dora Dombo, Mutare, Zimbabwe</p>
               <p>Email: <a href="mailto:info@keystoneschools.co.zw" className="text-primary hover:underline">info@keystoneschools.co.zw</a></p>
               <p>Phone: +263 773 000 000</p>
             </div>
