@@ -22,18 +22,16 @@ export default function Navigation({ onRegisterClick }) {
   ];
 
   return (
-    <nav className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-      scrolled ? 'bg-white shadow-md' : 'bg-white/95 backdrop-blur-sm'
-    }`}>
+    <nav className="fixed w-full top-0 z-50 bg-white shadow-md">
       <div className="w-full px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-3 items-center h-20">
+        <div className="grid grid-cols-3 items-center h-28">
 
           {/* Col 1 — Brand far left */}
           <div className="flex items-center">
             <img
               src="/logo.png"
               alt="Keystone Schools"
-              className="h-36 w-36 object-contain"
+              className="h-24 w-24 object-contain"
             />
           </div>
 
