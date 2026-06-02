@@ -129,38 +129,38 @@ export default function About() {
           </p>
         </motion.div>
 
-        {/* Bottom row — features list LEFT, stats RIGHT */}
-        <div className="grid md:grid-cols-2 gap-10 items-center bg-gray-50 rounded-2xl p-20 mt-4">
+        {/* Marquee ticker — features + stats scrolling continuously */}
+        <div className="mt-8 overflow-hidden bg-gray-50 rounded-2xl py-6 relative">
+          {/* Left fade */}
+          <div className="absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-gray-50 to-transparent z-10 pointer-events-none" />
+          {/* Right fade */}
+          <div className="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-gray-50 to-transparent z-10 pointer-events-none" />
 
-          {/* Features list */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {features.map((feature, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ delay: index * 0.08 }}
-                viewport={{ once: true }}
-                className="flex items-center gap-3"
-              >
-                <HiCheckCircle className="text-primary text-xl flex-shrink-0" />
-                <span className="text-gray-700 text-sm font-medium">{feature}</span>
-              </motion.div>
+          <motion.div
+            className="flex gap-10 w-max"
+            animate={{ x: ['0%', '-50%'] }}
+            transition={{ duration: 25, ease: 'linear', repeat: Infinity }}
+          >
+            {/* Render items twice so the loop is seamless */}
+            {[...Array(2)].map((_, loopIndex) => (
+              <div key={loopIndex} className="flex items-center gap-10 flex-shrink-0">
+                {features.map((feature, index) => (
+                  <div key={`f-${index}`} className="flex items-center gap-2 whitespace-nowrap">
+                    <HiCheckCircle className="text-primary text-xl flex-shrink-0" />
+                    <span className="text-gray-700 text-sm font-semibold">{feature}</span>
+                  </div>
+                ))}
+                {stats.map((stat, index) => (
+                  <div key={`s-${index}`} className="flex items-center gap-2 whitespace-nowrap bg-white border border-primary/20 rounded-xl px-5 py-2">
+                    <span className="text-primary font-bold text-lg">{stat.value}{stat.suffix}</span>
+                    <span className="text-gray-500 text-sm">{stat.label}</span>
+                  </div>
+                ))}
+                {/* Divider dot between loops */}
+                <span className="text-primary text-2xl">✦</span>
+              </div>
             ))}
-          </div>
-
-          {/* Animated Stats */}
-          <div className="grid grid-cols-3 gap-6">
-            {stats.map((stat, index) => (
-              <AnimatedStat
-                key={index}
-                value={stat.value}
-                suffix={stat.suffix}
-                label={stat.label}
-                delay={index * 0.15}
-              />
-            ))}
-          </div>
+          </motion.div>
         </div>
 
       </div>
