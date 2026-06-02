@@ -457,7 +457,7 @@ Submitted via Keystone Schools Website`;
                               className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary ${
                                 errors.parentPhone ? 'border-red-500' : 'border-gray-300'
                               }`}
-                              placeholder="+263 773 000 000"
+                              placeholder="+263 771 824 701"
                             />
                             {errors.parentPhone && (
                               <p className="text-red-500 text-sm mt-1">{errors.parentPhone}</p>
