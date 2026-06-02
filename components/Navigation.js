@@ -23,20 +23,20 @@ export default function Navigation({ onRegisterClick }) {
 
   return (
     <nav className="fixed w-full top-0 z-50 bg-white shadow-md">
-      <div className="w-full px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-3 items-center h-28">
+      <div className="w-full px-8 sm:px-16 lg:px-24">
+        <div className="flex items-center justify-between h-36">
 
-          {/* Col 1 — Brand far left */}
-          <div className="flex items-center">
+          {/* Logo */}
+          <div className="flex items-center flex-shrink-0">
             <img
               src="/logo.png"
               alt="Keystone Schools"
-              className="h-24 w-24 object-contain"
+              className="h-28 w-28 object-contain"
             />
           </div>
 
-          {/* Col 2 — Nav links perfectly centred */}
-          <div className="hidden md:flex items-center justify-center gap-8">
+          {/* Nav links — centered */}
+          <div className="hidden md:flex items-center justify-center gap-10 flex-1">
             {navLinks.map(({ href, label }) => (
               <Link
                 key={href}
@@ -48,11 +48,11 @@ export default function Navigation({ onRegisterClick }) {
             ))}
           </div>
 
-          {/* Col 3 — Register button far right + mobile hamburger */}
-          <div className="flex items-center justify-end gap-4">
+          {/* Register button — with right padding so it's not at the edge */}
+          <div className="flex items-center flex-shrink-0 pr-4">
             <button
               onClick={onRegisterClick}
-              className="hidden md:block px-6 py-2.5 bg-primary text-white text-sm font-bold rounded-lg hover:bg-red-700 transition-colors duration-200 shadow-sm"
+              className="hidden md:block px-8 py-3 bg-primary text-white text-sm font-bold rounded-lg hover:bg-red-700 transition-colors duration-200 shadow-sm"
             >
               Register Now
             </button>
