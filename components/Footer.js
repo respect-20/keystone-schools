@@ -83,7 +83,7 @@ export default function Footer() {
             © {currentYear} Keystone Schools. All rights reserved.
           </p>
           <div className="flex gap-5">
-            <a href="https://facebook.com/keystoneschools" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition text-xl"><FaFacebook /></a>
+            <a href="https://www.facebook.com/profile.php?id=61590732863008" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition text-xl"><FaFacebook /></a>
             <a href="https://twitter.com/keystoneschools" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition text-xl"><FaTwitter /></a>
             <a href="https://instagram.com/keystoneschools" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition text-xl"><FaInstagram /></a>
           </div>
