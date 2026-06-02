@@ -33,7 +33,7 @@ export default function Navigation({ onRegisterClick }) {
             <img
               src="/logo.png"
               alt="Keystone Schools"
-              className="h-24 w-24 object-contain"
+              className="h-36 w-36 object-contain"
             />
           </div>
 
