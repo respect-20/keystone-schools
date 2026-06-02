@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
       {/* Content */}
       <main className="w-full px-8 sm:px-16 lg:px-24 py-12">
         <h1 className="text-4xl font-bold text-secondary mb-2">Privacy Policy</h1>
-        <p className="text-gray-500 text-sm mb-10">Last updated: May 2025</p>
+        <p className="text-gray-500 text-sm mb-10">Last updated: May 2026</p>
 
         <div className="space-y-10 text-gray-700 leading-relaxed">
 

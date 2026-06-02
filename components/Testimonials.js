@@ -6,7 +6,7 @@ const reasons = [
   {
     icon: '🏫',
     title: 'Brand New Facilities',
-    content: 'Our campus is freshly built and equipped with modern classrooms, a computer lab, and a well-stocked library — all set up for the 2025 intake.',
+    content: 'Our campus is freshly built and equipped with modern classrooms, a computer lab, and a well-stocked library — all set up for the 2026 intake.',
   },
   {
     icon: '👨‍🏫',
@@ -21,7 +21,7 @@ const reasons = [
   {
     icon: '🤝',
     title: 'Be Among the First',
-    content: 'Join Keystone Schools as part of our founding class of 2025. Early students benefit from personalised attention, smaller classes, and a close-knit school community.',
+    content: 'Join Keystone Schools as part of our founding class of 2026. Early students benefit from personalised attention, smaller classes, and a close-knit school community.',
   },
 ];
 
@@ -45,7 +45,7 @@ export default function Testimonials() {
             Be Part of Something New
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Keystone Schools opened its doors in 2025. We are building something special in Mutare — and we want your child to be part of it from the very beginning.
+            Keystone Schools opened its doors in 2026. We are building something special in Mutare — and we want your child to be part of it from the very beginning.
           </p>
         </motion.div>
 

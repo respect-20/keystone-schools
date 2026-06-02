@@ -4,7 +4,7 @@ import { HiLocationMarker, HiCalendar } from 'react-icons/hi';
 
 const events = [
   {
-    date: 'June 7, 2025',
+    date: 'June 7, 2026',
     month: 'JUN',
     day: '07',
     name: 'Open Day',
@@ -13,7 +13,7 @@ const events = [
     location: 'Main Campus, Harare',
   },
   {
-    date: 'May 6, 2025',
+    date: 'May 6, 2026',
     month: 'MAY',
     day: '06',
     name: 'Term 2 Begins',
@@ -22,16 +22,16 @@ const events = [
     location: 'Keystone Schools Campus',
   },
   {
-    date: 'July 19, 2025',
+    date: 'July 19, 2026',
     month: 'JUL',
     day: '19',
-    name: 'Sports Day 2025',
+    name: 'Sports Day 2026',
     description:
       'Our annual inter-house sports day featuring athletics, football, netball, and swimming competitions. Parents and family are welcome to attend and cheer.',
     location: 'School Sports Grounds',
   },
   {
-    date: 'July 26, 2025',
+    date: 'July 26, 2026',
     month: 'JUL',
     day: '26',
     name: 'Parent-Teacher Meeting',
@@ -40,7 +40,7 @@ const events = [
     location: 'School Classrooms',
   },
   {
-    date: 'November 28, 2025',
+    date: 'November 28, 2026',
     month: 'NOV',
     day: '28',
     name: 'Prize Giving Ceremony',
@@ -49,7 +49,7 @@ const events = [
     location: 'Assembly Hall, Main Campus',
   },
   {
-    date: 'October 6, 2025',
+    date: 'October 6, 2026',
     month: 'OCT',
     day: '06',
     name: 'ZIMSEC Exams Begin',

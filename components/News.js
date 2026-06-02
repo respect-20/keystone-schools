@@ -4,28 +4,28 @@ import { HiCalendar, HiChevronDown, HiChevronUp } from 'react-icons/hi';
 
 const newsItems = [
   {
-    date: 'January 2025',
+    date: 'January 2026',
     title: 'Keystone Schools Opens Its Doors in Mutare',
     excerpt:
       'We are thrilled to announce the official opening of Keystone Schools at Shop #2 Bvirindi Business Center, Dora Dombo, Mutare. A new chapter in quality education begins.',
-    full: 'Keystone Schools was founded with one clear mission — to provide quality, affordable, and holistic secondary education to the young people of Mutare and surrounding areas. We are now open and accepting applications for Forms 1 to 4 for the 2025 academic year. Our campus is equipped with modern classrooms, a computer lab, and a well-resourced library. We invite parents and guardians to visit us, meet our teachers, and register their children today.',
+    full: 'Keystone Schools was founded with one clear mission — to provide quality, affordable, and holistic secondary education to the young people of Mutare and surrounding areas. We are now open and accepting applications for Forms 1 to 4 for the 2026 academic year. Our campus is equipped with modern classrooms, a computer lab, and a well-resourced library. We invite parents and guardians to visit us, meet our teachers, and register their children today.',
   },
   {
-    date: 'January 2025',
+    date: 'January 2026',
     title: 'Applications Now Open for Forms 1 – 4',
     excerpt:
       'Keystone Schools is now accepting applications for all form levels. Spaces are limited — early registration is encouraged to secure your child\'s place.',
     full: 'To apply, parents and guardians are required to submit a completed registration form, certified copies of the student\'s birth certificate, and most recent school report. Applications can be submitted online through our website or in person at our offices at Shop #2 Bvirindi Business Center, Dora Dombo, Mutare. For enquiries, contact us on +263 771 824 701 or email info@keystoneschools.co.zw. We look forward to welcoming your child to the Keystone family.',
   },
   {
-    date: 'January 2025',
+    date: 'January 2026',
     title: 'Meet Our Teaching Team',
     excerpt:
       'Keystone Schools has assembled a team of qualified, experienced, and passionate educators dedicated to the success of every student.',
     full: 'Our teachers hold recognised qualifications and bring a wealth of classroom experience across all subject areas. We believe that great teachers are the foundation of great schools. At Keystone, every teacher is committed not just to academic results but to the overall wellbeing and development of each student. We maintain small class sizes to ensure that no child is left behind and every learner receives the individual support they deserve.',
   },
   {
-    date: 'January 2025',
+    date: 'January 2026',
     title: 'Our Vision: Excellence, Character & Community',
     excerpt:
       'Keystone Schools was built on three pillars — academic excellence, strong character development, and a safe, supportive school community.',

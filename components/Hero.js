@@ -43,7 +43,7 @@ export default function Hero({ onRegisterClick }) {
           {/* Badge */}
           <motion.div variants={itemVariants} className="inline-block">
             <span className="px-4 py-2 bg-white/15 border border-white/30 rounded-full text-white font-semibold text-sm">
-              🏆 Award-Winning Institution Since 2025
+              🏆 Now Open — Enrolling for 2026
             </span>
           </motion.div>
 
@@ -96,7 +96,7 @@ export default function Hero({ onRegisterClick }) {
               <div className="text-sm text-white/75">Class Sizes</div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-primary">2025</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary">2026</div>
               <div className="text-sm text-white/75">Est. Mutare</div>
             </div>
           </motion.div>

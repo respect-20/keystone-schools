@@ -72,7 +72,7 @@ export default function About() {
   ];
 
   const stats = [
-    { value: 2025, suffix: '', label: 'Est. Mutare' },
+    { value: 2026, suffix: '', label: 'Est. Mutare' },
     { value: 4, suffix: '', label: 'Forms Offered (1–4)' },
     { value: 100, suffix: '%', label: 'Dedicated to Excellence' },
   ];
