@@ -34,7 +34,7 @@ export default function FloatingWhatsApp() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
             transition={{ duration: 0.2 }}
-            className="bg-white rounded-2xl shadow-2xl w-80 overflow-hidden"
+            className="bg-white rounded-2xl shadow-2xl w-96 overflow-hidden"
           >
             {/* Header */}
             <div className="bg-green-500 px-5 py-4 flex items-start justify-between gap-3">
@@ -61,7 +61,7 @@ export default function FloatingWhatsApp() {
                 >
                   {/* Logo */}
                   <div className="flex-shrink-0">
-                    <img src="/logo.png" alt="Keystone" className="h-10 w-10 object-contain rounded-full border border-gray-100" />
+                    <img src="/logo.png" alt="Keystone" className="h-14 w-14 object-contain rounded-full border border-gray-100" />
                   </div>
 
                   {/* Info */}

@@ -29,16 +29,12 @@ export default function Navigation({ onRegisterClick }) {
         <div className="grid grid-cols-3 items-center h-20">
 
           {/* Col 1 — Brand far left */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center">
             <img
               src="/logo.png"
               alt="Keystone Schools"
-              className="h-20 w-20 object-contain"
+              className="h-24 w-24 object-contain"
             />
-            <div className="leading-tight">
-              <p className="text-xl font-display font-bold text-primary tracking-wide">KEYSTONE</p>
-              <p className="text-xs font-bold text-primary tracking-widest">SCHOOLS</p>
-            </div>
           </div>
 
           {/* Col 2 — Nav links perfectly centred */}
