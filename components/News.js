@@ -4,32 +4,32 @@ import { HiCalendar, HiChevronDown, HiChevronUp } from 'react-icons/hi';
 
 const newsItems = [
   {
-    date: 'May 15, 2025',
-    title: '2025 Academic Year Term Dates Announced',
+    date: 'January 2025',
+    title: 'Keystone Schools Opens Its Doors in Mutare',
     excerpt:
-      'The school has confirmed the official term dates for the 2025 academic year in line with the Ministry of Primary and Secondary Education calendar.',
-    full: 'Term 1 runs from 27 January to 4 April. Term 2 begins 6 May and ends 1 August. Term 3 starts 2 September and concludes 5 December. Parents are advised to ensure all fees are settled before the first day of each term. A full academic calendar including public holidays and examination windows is available from the school office or on our newsletter. We look forward to a productive and successful year.',
+      'We are thrilled to announce the official opening of Keystone Schools at Shop #2 Bvirindi Business Center, Dora Dombo, Mutare. A new chapter in quality education begins.',
+    full: 'Keystone Schools was founded with one clear mission — to provide quality, affordable, and holistic secondary education to the young people of Mutare and surrounding areas. We are now open and accepting applications for Forms 1 to 4 for the 2025 academic year. Our campus is equipped with modern classrooms, a computer lab, and a well-resourced library. We invite parents and guardians to visit us, meet our teachers, and register their children today.',
   },
   {
-    date: 'April 28, 2025',
-    title: 'Prize Giving Day 2025 — Save the Date',
+    date: 'January 2025',
+    title: 'Applications Now Open for Forms 1 – 4',
     excerpt:
-      'Keystone Schools is proud to announce that our annual Prize Giving Ceremony will be held on Friday, 28 November 2025 at the school assembly hall.',
-    full: 'The event will begin at 10:00 AM and all parents, guardians, and invited guests are warmly welcome to attend. The ceremony will celebrate academic excellence, sporting achievements, and outstanding contributions to school life. Students who have been nominated for awards will be notified two weeks before the event. Smart dress code is required for all attendees. Refreshments will be served after the ceremony.',
+      'Keystone Schools is now accepting applications for all form levels. Spaces are limited — early registration is encouraged to secure your child\'s place.',
+    full: 'To apply, parents and guardians are required to submit a completed registration form, certified copies of the student\'s birth certificate, and most recent school report. Applications can be submitted online through our website or in person at our offices at Shop #2 Bvirindi Business Center, Dora Dombo, Mutare. For enquiries, contact us on +263 771 824 701 or email info@keystoneschools.co.zw. We look forward to welcoming your child to the Keystone family.',
   },
   {
-    date: 'April 10, 2025',
-    title: 'New Sports Development Programme Launched',
+    date: 'January 2025',
+    title: 'Meet Our Teaching Team',
     excerpt:
-      'We are excited to introduce our expanded sports programme for 2025, featuring new coaching partnerships and improved facilities for football, netball, and athletics.',
-    full: 'The programme is a result of a new partnership with Zimbabwe Schools Sports Association and brings qualified coaches to work alongside our dedicated PE department. Football, netball, volleyball, and athletics have all received dedicated training schedules. The school has also resurfaced the athletics track and erected new goal posts on the main field. Inter-school competitions will begin in Term 2. All Form 1–4 students are encouraged to attend trials.',
+      'Keystone Schools has assembled a team of qualified, experienced, and passionate educators dedicated to the success of every student.',
+    full: 'Our teachers hold recognised qualifications and bring a wealth of classroom experience across all subject areas. We believe that great teachers are the foundation of great schools. At Keystone, every teacher is committed not just to academic results but to the overall wellbeing and development of each student. We maintain small class sizes to ensure that no child is left behind and every learner receives the individual support they deserve.',
   },
   {
-    date: 'March 20, 2025',
-    title: 'Outstanding ZIMSEC O-Level Results Achievement',
+    date: 'January 2025',
+    title: 'Our Vision: Excellence, Character & Community',
     excerpt:
-      'Keystone Schools celebrates yet another year of exceptional ZIMSEC Ordinary Level results, with 94% of candidates achieving five or more subjects.',
-    full: 'The 2024 November ZIMSEC examinations delivered our best-ever results. 94% of Form 4 candidates passed five or more subjects at grade C or better. Mathematics and English Language continued to be areas of strength, with pass rates of 91% and 97% respectively. Top student Tatenda Moyo achieved 10As and has been offered a scholarship to a leading A-Level college. The school thanks all teachers, students, and parents for their dedication throughout the year.',
+      'Keystone Schools was built on three pillars — academic excellence, strong character development, and a safe, supportive school community.',
+    full: 'We believe education is more than passing examinations. At Keystone, we develop young people who are confident, respectful, and ready for the world. Our school culture promotes discipline, hard work, and kindness. We follow the ZIMSEC curriculum and prepare Form 4 students thoroughly for their Ordinary Level examinations. Beyond academics, we offer co-curricular activities including sports, debate, and cultural programmes to ensure the all-round development of every student.',
   },
 ];
 

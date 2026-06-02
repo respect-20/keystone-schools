@@ -72,9 +72,9 @@ export default function About() {
   ];
 
   const stats = [
-    { value: 2025, suffix: '', label: 'Est. Year' },
-    { value: 500, suffix: '+', label: 'Successful Graduates' },
-    { value: 5, suffix: '★', label: 'Parent Satisfaction' },
+    { value: 2025, suffix: '', label: 'Est. Mutare' },
+    { value: 4, suffix: '', label: 'Forms Offered (1–4)' },
+    { value: 100, suffix: '%', label: 'Dedicated to Excellence' },
   ];
 
   return (

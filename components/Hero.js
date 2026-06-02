@@ -88,16 +88,16 @@ export default function Hero({ onRegisterClick }) {
             className="grid grid-cols-3 gap-8 pt-12 max-w-2xl mx-auto"
           >
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-primary">500+</div>
-              <div className="text-sm text-white/75">Students Enrolled</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary">Forms 1–4</div>
+              <div className="text-sm text-white/75">Now Enrolling</div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-primary">50+</div>
-              <div className="text-sm text-white/75">Expert Teachers</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary">Small</div>
+              <div className="text-sm text-white/75">Class Sizes</div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-primary">98%</div>
-              <div className="text-sm text-white/75">Pass Rate</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary">2025</div>
+              <div className="text-sm text-white/75">Est. Mutare</div>
             </div>
           </motion.div>
         </motion.div>
