@@ -72,7 +72,7 @@ export default function About() {
   ];
 
   const stats = [
-    { value: 14, suffix: '+', label: 'Years of Excellence' },
+    { value: 2025, suffix: '', label: 'Est. Year' },
     { value: 500, suffix: '+', label: 'Successful Graduates' },
     { value: 5, suffix: '★', label: 'Parent Satisfaction' },
   ];
