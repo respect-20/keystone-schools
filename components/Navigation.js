@@ -2,33 +2,15 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { HiMenu, HiX } from 'react-icons/hi';
 
-const LANGUAGES = [
-  { code: 'EN', label: 'EN', flag: '🇬🇧' },
-  { code: 'SN', label: 'SN', flag: '🇿🇼' },
-  { code: 'ND', label: 'ND', flag: '🇿🇼' },
-];
-
 export default function Navigation({ onRegisterClick }) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [language, setLanguage] = useState('EN');
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  useEffect(() => {
-    const stored = localStorage.getItem('siteLanguage');
-    if (stored) setLanguage(stored);
-  }, []);
-
-  const handleLanguageChange = (e) => {
-    const val = e.target.value;
-    setLanguage(val);
-    localStorage.setItem('siteLanguage', val);
-  };
 
   const navLinks = [
     { href: '#about', label: 'About' },
@@ -72,25 +54,8 @@ export default function Navigation({ onRegisterClick }) {
             ))}
           </div>
 
-          {/* Col 3 — Language toggle + Register button far right + mobile hamburger */}
+          {/* Col 3 — Register button far right + mobile hamburger */}
           <div className="flex items-center justify-end gap-4">
-            {/* Language selector */}
-            <div className="hidden md:flex items-center">
-              <select
-                value={language}
-                onChange={handleLanguageChange}
-                aria-label="Select language"
-                className="text-xs font-semibold text-secondary bg-transparent border border-gray-200 rounded-lg px-2 py-1.5 focus:outline-none focus:ring-2 focus:ring-primary/30 cursor-pointer hover:border-primary transition-colors duration-200 appearance-none pr-6"
-                style={{ backgroundImage: 'none' }}
-              >
-                {LANGUAGES.map((lang) => (
-                  <option key={lang.code} value={lang.code}>
-                    {lang.flag} {lang.label}
-                  </option>
-                ))}
-              </select>
-            </div>
-
             <button
               onClick={onRegisterClick}
               className="hidden md:block px-6 py-2.5 bg-primary text-white text-sm font-bold rounded-lg hover:bg-red-700 transition-colors duration-200 shadow-sm"
