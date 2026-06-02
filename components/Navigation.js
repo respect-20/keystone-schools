@@ -31,7 +31,7 @@ export default function Navigation({ onRegisterClick }) {
           {/* Col 1 — Brand far left */}
           <div className="flex items-center gap-3">
             <img
-              src="/logo.svg"
+              src="/logo.png"
               alt="Keystone Schools"
               className="h-12 w-12 object-contain"
             />

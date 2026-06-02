@@ -24,7 +24,7 @@ export default function LoadingScreen({ onDone }) {
         >
           {/* Logo */}
           <motion.img
-            src="/logo.svg"
+            src="/logo.png"
             alt="Keystone Schools"
             initial={{ scale: 0.7, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}

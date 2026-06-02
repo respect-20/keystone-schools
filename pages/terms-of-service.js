@@ -13,7 +13,7 @@ export default function TermsOfService() {
       {/* Nav bar */}
       <header className="bg-secondary text-white py-4 px-8 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
-          <img src="/logo.svg" alt="Keystone Schools" className="h-10 w-10 object-contain" />
+          <img src="/logo.png" alt="Keystone Schools" className="h-10 w-10 object-contain" />
           <div className="leading-tight">
             <p className="text-base font-bold text-primary tracking-wide">KEYSTONE</p>
             <p className="text-xs font-bold text-primary tracking-widest">SCHOOLS</p>

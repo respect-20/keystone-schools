@@ -13,7 +13,7 @@ export default function NotFound() {
       {/* Nav */}
       <header className="bg-secondary text-white py-4 px-8 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
-          <img src="/logo.svg" alt="Keystone Schools" className="h-10 w-10 object-contain" />
+          <img src="/logo.png" alt="Keystone Schools" className="h-10 w-10 object-contain" />
           <div className="leading-tight">
             <p className="text-base font-bold text-primary tracking-wide">KEYSTONE</p>
             <p className="text-xs font-bold text-primary tracking-widest">SCHOOLS</p>
@@ -27,7 +27,7 @@ export default function NotFound() {
       {/* Main Content */}
       <main className="flex flex-col items-center justify-center min-h-[70vh] text-center px-8 py-16 bg-white">
         <img
-          src="/logo.svg"
+          src="/logo.png"
           alt="Keystone Schools"
           className="w-20 h-20 object-contain mb-6 opacity-60"
         />
