@@ -40,9 +40,10 @@ export default function RegistrationCTA({ onRegisterClick }) {
             </button>
           </div>
 
-          <p className="text-sm text-white/80 mt-8">
-            🎓 Early registration opens special admission discounts • 📞 Call us: +263 771 824 701
-          </p>
+          <div className="text-sm text-white/80 mt-8 space-y-2">
+            <p>🎓 Early registration opens special admission discounts</p>
+            <p>📞 Call us: +263 771 824 701</p>
+          </div>
         </motion.div>
       </div>
     </section>
